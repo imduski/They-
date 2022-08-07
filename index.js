@@ -1,3 +1,4 @@
+const { keep_alive } = require("./keep_alive");
 const { Client, Message, MessageEmbed, Collection , Intents } = require("discord.js");
 const fs = require("fs");
 const config = require("./config/config.json");
@@ -18,7 +19,6 @@ module.exports = config;
 const prefix = config.prefix;
 client.prefix = prefix;
 client.config = config;
-const token = config.token;
 module.exports = client;
 client.commands = new Collection();
 client.aliases = new Collection();
@@ -48,7 +48,7 @@ client.on("message", async (message) => {
             return message.channel.send(
                 new MessageEmbed()
                     .setColor("RED")
-                    .setFooter("Made By Kabir Jaipal aka Tech Boy Gaming")
+                    .setFooter("Made By iLsDUSKI#0754 ")
                     .setAuthor(message.author.tag)
                     .setTitle(`Hugh? I got pinged? Imma give you some help`)
                     .setDescription(
@@ -61,7 +61,7 @@ client.on("message", async (message) => {
 });
 
 
-client.login(token)
+client.login(process.env.TOKEN)
 
 
 // Bot Coded By Tech Boy Gaming

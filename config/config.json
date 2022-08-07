@@ -1,8 +1,7 @@
 {
-    "token": "your_bot_token",
-    "prefix": "your_prefix",
-    "ownerID": "821095540569407508",
-    "footertext": "Coded By Tech Boy Gaming",
+    "prefix": ".",
+    "ownerID": "679688840625127531",
+    "footertext": "Coded By TechTN hazem#4962",
     "colors": {
         "yes": "BLUE",
         "no": "RED"

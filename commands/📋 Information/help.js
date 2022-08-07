@@ -52,8 +52,9 @@ module.exports = {
         .setTitle("HELP MENU 🔰 Commands")
         .addField('Prefix Information', `Prefix: \`${prefix}\`\nYou can also mention ${client.user} to get prefix info.`, false)
         .addField("• Developer", `\`\`\`yml\nName: ᴋᴀʙɪʀ々ꜱɪɴɢʜ🌙#8148 [821095540569407508]\nName Ξ Kabir Jaipal [821095540569407508]\`\`\``)
-        .addField("• Important Links", `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)\`|\`[Support Server](https://discord.gg/KRX2tgNA7R)\`|\`[Youtube](https://www.youtube.com/channel/UCINCfgiBYCykOemiuVhqtIQ/)\`**`)
+        .addField("• Important Links", `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)\`|\`[Support Server](https://discord.gg/ZZ3SueTWmZ)\`|\`[Youtube](https://www.youtube.com/channel/UCqFnmaK6zK4KuIztPDxrO8A)\`**`)
         .addFields(categories)
+        .setImage("https://cdn.discordapp.com/attachments/779341728695451678/896394496961548408/standard_20.gif")
         .setDescription(
           `Use \`${prefix}help\` followed by a command name to get more additional information on a command. For example: \`${prefix}help ban\`.`
         )
